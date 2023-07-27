@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bangers&family=Carter+One&family=Castoro+Titling&family=Cinzel:wght@400;500;600&family=Great+Vibes&family=Holtwood+One+SC&family=Lumanosimo&family=Montserrat:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rock+Salt&family=Shrikhand&display=swap');
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+  
+}
+body{
+    background-color: #002147;
+    font-family: 'Roboto', sans-serif;
+}
+
+#best{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+          background-color: #002147;
+          color: #e0e0e0;
+    text-align: center;
+    justify-content: center;
+  
+ 
+}
+
+
+/* styling for section 1 */
+#navbar{
+    background-color:white;
+   }
+   #brand-image{
+   
+       height: 50px;
+       width: 200px;
+   }
+
+   /* styling for section 2 */
+
+   .img-fluid{
+
+    filter: brightness(0.9);
+}
+
+/* styling for section 3 */
+
+
+
+
+#travel{
+   
+    color: #e0e0e0;
+    font-family: 'Lumanosimo', cursive;
+   
+    padding: 30px;
+  }
+
+  .icons2{
+
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e0e0e0;
+    
+  }
+
+.icons2:hover{
+
+    cursor: pointer;
+    color: #FFA500;
+
+}
+
+#subtext{
+    position: relative;
+    font-size: 10px;
+    top:45px;
+    left: -33px;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+#subtext2{
+    position: relative;
+    font-size: 10px;
+    top:45px;
+    left: -26px;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+#subtext3{
+    position: relative;
+    font-size: 10px;
+    top:45px;
+    left: -19px;
+    text-decoration: none;
+    
+    color: #e0e0e0;
+}
+#subtext4{
+    position: relative;
+    font-size: 10px;
+    top:45px;
+    left: -27px;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+#subtext5{
+    position: relative;
+    font-size: 10px;
+    top:45px;
+    left: -26px;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+  #subtext:hover{
+   color:#FFA500;
+  }
+  
+  #subtext2:hover{
+    color: #FFA500;
+  }
+  #subtext3:hover{
+    color: #FFA500;
+  }
+  #subtext4:hover{
+    color: #FFA500;
+  }
+  #subtext5:hover{
+    color: #FFA500;
+  }
+
+
+
+
+    /* styling for section 4 */
+
+    .container-fluid{
+        background-color: #002147;
+       
+    }
+    #destinations{
+
+        margin-top: 100px;
+        background-color:#002147;
+        color: #e0e0e0;
+     
+       
+    }
+
+    
+    h1{
+        font-size: 25px;
+    }
+
+    #best1{
+
+        display: flex;
+        position: relative;
+        margin-bottom: 100px;
+              background-color: #002147;
+              color: #e0e0e0;
+        text-align: center;
+        justify-content: center;
+       
+    }
+    
+
+
+    
+
+    /* styling for section 5 */
+
+    #best-selling{
+
+        border: none;
+        background-color: #001e3f;
+    }
+
+
+.card-title{
+  color: skyblue; 
+  font-family: 'Castoro Titling', cursive; 
+
+
+}
+
+.card-text{
+
+    font-size: 13px;
+   
+}
+.slide1{
+   
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+  
+}
+.slide2{
+  position: relative;
+
+  top: -35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.btn1{
+
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: -20px;
+   
+
+
+}
+
+#book{
+  
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  border: none;
+
+}
+#book:hover{
+
+    color: red;
+    background-color: #002147;
+}
+
+
+.col .card{
+    background-color: #002147;
+    color: #e0e0e0;
+}
+
+
+
+  /* styles for section 6 */
+
+  
+#icon{
+
+    font-size: 45px;
+    background-color: #002147;
+    color: skyblue;
+  
+}
+#p1{
+    font-size: 21px;
+}
+
+
+
+/* styling for section 7 */
+
+#quotes{
+    margin-top: 100px;
+      
+      padding: 70px;
+      background-color: #001e3f;
+      color: #e0e0e0;
+      
+  }
+
+  /* styling for section 8 */
+
+.p-3{
+
+    border-radius: 60%;
+  overflow: hidden;
+ width: 160px;
+ height: 160px;
+ 
+}
+.col img{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+filter: brightness(0.9);
+}
+
+.col img:hover{
+
+    cursor: pointer;
+
+  
+   
+}
+
+.col-12{
+    background-color: #002147;
+    
+   
+}
+
+.col-12 p{
+
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+/* style for section 9 */
+
+
+/* 
+#icons{
+    background-color: #002147;
+    text-align: center;
+    color: red;
+} */
+
+
+
+/* styling for section 10 */
+.custom-carousel .carousel-inner img {
+    object-fit: cover; /* Maintain image aspect ratio */
+    max-height: 400px; /* Adjust this to match the custom-carousel height */
+  }
+
+  #carouselExampleAutoplaying{
+
+    margin-top: 50px;
+  }
+
+  /* styling for section 11 */
+
+  #about-us{
+    margin-top: 150px;
+}
+
+
+#about-us-para{
+
+    font-size: 12px;
+    color: #e0e0e0;
+    
+}
+#headings{
+
+    color:#e0e0e0;
+    font-size: 18px;
+}
+
+#about-us-card{
+
+    background-color: #001e3f;
+
+}
+#card-about-us{
+
+    border: none;
+}
+
+
+
+
+/* styling for section 12 */
+
+
+
+
+#footer{
+    margin-top: 50px;
+    
+
+    margin-bottom: 50px;
+
+
+}
+
+.sc-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFA500;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+#sc-icon-container{
+
+    display: flex;
+    align-items: center;
+    justify-content:auto;
+  
+   margin-top: 100px;
+   background-color:#002147;
+   color: #e0e0e0;
+   margin-bottom: 50px;
+}
+.sc-icon .fa-brands{
+    color: #FFA500;
+}
+
+.sc-icon:hover{
+   
+    border: 1px solid white;
+   cursor: pointer;
+}
+.sc-icon .fa-brands:hover{
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* styling for section 13 */
+
+
+
+
+#copyright-container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+#copyright{
+    color: #e0e0e0;
+    font-size: 8px;
+
+}
+
+
+
+
+ 
+
+
+
+
+
